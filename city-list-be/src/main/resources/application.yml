@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/cities
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    baseline-on-migrate: true
